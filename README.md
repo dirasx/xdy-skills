@@ -2,7 +2,6 @@
 
 A collection of agent skills by xdy. Each skill lives in its own folder and can be installed separately.
 
-
 [Browse on skills.sh](https://skills.sh/dirasx/xdy-skills) · [Read in Russian](#скиллы-xdy)
 
 ## AutoCAD skills
@@ -44,7 +43,6 @@ Open your project in Codex and include `$course-project` in your request:
 ## Скиллы xdy
 
 Коллекция скиллов для ИИ-агентов. Каждый скилл можно установить отдельно.
-
 
 В [разделе AutoCAD](skills/autocad-skills#скиллы-для-autocad) собраны проверка DWG, проверка чертежей в PDF и восстановление чертежей по исходникам.
 Для работы с открытым AutoCAD через MCP есть [xdy AutoCAD MCP](skills/autocad-skills/xdy-autocad-mcp#xdy-autocad-mcp-для-windows).
