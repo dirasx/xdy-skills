@@ -1,12 +1,6 @@
-# xdy AutoCAD MCP
+# AutoCAD MCP setup
 
-A Codex skill for inspecting and editing drawings through AutoCAD MCP. It adapts [U-C4N's original skill](https://github.com/U-C4N/Autocad-MCP/blob/main/.claude/skills/autocad-mcp-premium/SKILL.md) and carries its [MIT notice](LICENSE). For live DWG work on Windows, use full AutoCAD and the separate [U-C4N server package](https://pypi.org/project/autocad-mcp-pro/1.8.0/).
-
-The optional skill can be installed separately from the server and its test.
-
-```sh
-npx skills add dirasx/xdy-skills --skill xdy-autocad-mcp --agent codex --global
-```
+For live DWG work on Windows, use full AutoCAD and the [U-C4N server package](https://pypi.org/project/autocad-mcp-pro/1.8.0/). The earlier companion skill adapted [U-C4N's instructions](https://github.com/U-C4N/Autocad-MCP/blob/main/.claude/skills/autocad-mcp-premium/SKILL.md); its [MIT notice](MCP-setup-LICENSE) is retained here.
 
 ## Windows setup
 
@@ -30,11 +24,11 @@ npx skills add dirasx/xdy-skills --skill xdy-autocad-mcp --agent codex --global
 
 A profile with `READ_ONLY = "true"` can inspect an already open DWG. U-C4N's `drawing_open` changes the active session and requires a profile that allows mutations. For MCP to open drawings itself, use a dedicated working folder in `ALLOWED_PATHS`, set `READ_ONLY = "false"` in that profile, and restart the local Codex session. Check the tool through `search_tools`. Keep AutoCAD running if `CAD_LAUNCH = "never"`.
 
-## xdy AutoCAD MCP для Windows
+## Настройка AutoCAD MCP для Windows
 
-Скилл для чтения, правки и проверки чертежей в Codex через подключённый AutoCAD MCP. Сервер ставится отдельно. Для первого теста понадобится полный AutoCAD на том же ПК и тестовая копия DWG.
+AutoCAD MCP подключает Codex к AutoCAD для чтения и правки чертежей. Для первого теста понадобится полный AutoCAD на том же ПК и тестовая копия DWG.
 
-Если сервер ещё не подключён, создай тестовую папку с подпапкой `drawings`, положи туда DWG и выполни настройку для Windows. В конфигурации подставь свои пути. После сохранения настроек заново запусти локальный Codex. Скилл можно установить отдельно командой в начале страницы. [Настройка для Windows](#windows-setup).
+Если сервер ещё не подключён, создай тестовую папку с подпапкой `drawings`, положи туда DWG и выполни настройку для Windows. В конфигурации подставь свои пути. После сохранения настроек заново запусти локальный Codex. [Настройка для Windows](#windows-setup).
 
 Попроси Codex настроить сервер в том же чате:
 
