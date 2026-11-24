@@ -1,4 +1,4 @@
 interface:
   display_name: "xdy · Документы продукта"
   short_description: "Документация, планы, версии и релизы проекта"
-  default_prompt: "Используй $xdy-docsproduct и покажи полный шаблон ведения проекта Lume."
+  default_prompt: "Используй $xdy-docsproduct и покажи полный шаблон ведения проекта."
