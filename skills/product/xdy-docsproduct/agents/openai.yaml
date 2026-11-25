@@ -1,4 +1,4 @@
 interface:
   display_name: "xdy · Документы продукта"
   short_description: "Документация, планы, версии и релизы проекта"
-  default_prompt: "Используй $xdy-docsproduct и создай WORKFLOW.md в корне проекта по полному шаблону."
+  default_prompt: "Используй $xdy-docsproduct и создай WORKFLOW.md в закрытом рабочем репозитории проекта или покажи, где он уже лежит."
